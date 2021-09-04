@@ -3512,7 +3512,8 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+ }
 
 .card-title {
   margin-bottom: 1.25rem; }
@@ -6373,7 +6374,9 @@ button.bg-darker:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important; }
+  padding-top: 3rem !important;
+
+}
 
 .pr-5,
 .px-5 {
@@ -11363,15 +11366,15 @@ button.section-darker:focus {
 
 @media (min-width: 992px) {
   .row.row-grid > [class*="col-lg-"] + [class*="col-lg-"] {
-    margin-top: 0; } }
+    margin-top: 9px; } }
 
 @media (min-width: 768px) {
   .row.row-grid > [class*="col-md-"] + [class*="col-md-"] {
-    margin-top: 0; } }
+    margin-top: 9px; } }
 
 @media (min-width: 576px) {
   .row.row-grid > [class*="col-sm-"] + [class*="col-sm-"] {
-    margin-top: 0; } }
+    margin-top: 9px; } }
 
 .row-grid + .row-grid {
   margin-top: 3rem; }
@@ -12067,7 +12070,9 @@ a.btn-icon-only {
   .card.card-plain {
     background: transparent;
     box-shadow: none;
-    border: none; }
+    border: none;
+  
+  }
 
 .profile-page .card-profile {
   margin-top: -150px; }
